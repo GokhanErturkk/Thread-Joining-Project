@@ -48,29 +48,14 @@ After `mvn clean package` command is applied and `java -jar ThreadJoining.jar -i
 # Tests to run
 
 ### Test 
+
+Make sure to run the tests below seperately before pushing the repository. All the tests should pass.
 ```bash
-mvn test
+mvn -Dtest=MainTest test
 ```
 
-When the  `mvn test` command applied ,it should give an output like below. All the tests should pass.
-
 ```bash
-[INFO] -------------------------------------------------------
-[INFO]  T E S T S
-[INFO] -------------------------------------------------------
-[INFO] Running estu.ceng.edu.Main2Test
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.161 s -- in estu.ceng.edu.Main2Test
-[INFO] Running estu.ceng.edu.MainTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.327 s -- in estu.ceng.edu.MainTest
-[INFO] 
-[INFO] Results:
-[INFO] 
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
-[INFO] 
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  7.568 s
-[INFO] Finished at: 2025-04-17T20:58:40+03:00
-[INFO] ------------------------------------------------------------------------
+mvn -Dtest=Main2Test test
 ```
+
+
