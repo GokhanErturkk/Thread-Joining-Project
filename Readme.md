@@ -35,8 +35,7 @@ After `mvn clean package` command is applied and `java -jar ThreadJoining.jar -i
 # Grading Criteria
 * If `mvn compile` does not work, you will get 0 point.
 * If you change the pom.xml, package names, class names (given file structure) or /test folder, you will be `penalized`  with 30 points.
-* ???? 
-* Programming logic and correct output defined in `Tests to run` section below are worth 40 points.
+* Programming logic and correct output defined in `Tests to run` section below are worth 100 points.
 
 # Requirements
 * Your project should be a maven project.
